@@ -450,3 +450,48 @@ h2,
 .whatsapp-flutuante:hover {
   transform: translateY(-4px);
 }
+
+/* Projeto Infos */
+
+.projeto-info {
+  padding: 70px 8%;
+  text-align: center;
+  background-color: #F7F1E8;
+}
+
+.projeto-info h2 {
+  font-size: 34px;
+  margin: 12px auto 20px;
+}
+
+.projeto-info > p:not(.etiqueta) {
+  max-width: 650px;
+  margin: 0 auto;
+  line-height: 1.8;
+  color: #6B5145;
+}
+
+.tecnologias {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.tecnologias span {
+  padding: 9px 14px;
+  border: 1px solid #E6D3BD;
+  border-radius: 30px;
+  font-size: 13px;
+}
+
+@media (max-width: 600px) {
+  .projeto-info {
+    padding: 55px 6%;
+  }
+
+  .projeto-info h2 {
+    font-size: 28px;
+  }
+}
